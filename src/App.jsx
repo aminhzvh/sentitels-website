@@ -756,7 +756,7 @@ export default function SentiTelStartupWebsite() {
         </div>
 
         <div className="flex items-center gap-2">
-          <a href={WEB_APP_LOGIN_URL} target="_blank" rel="noreferrer" className="hidden rounded-full border border-[#FF8200]/30 bg-[#FF8200]/10 px-5 py-2 text-sm font-semibold text-[#FF8200]/15 transition hover:bg-[#FF8200]/20 active:scale-95 md:inline-flex">Web App Login</a>
+          <a href={WEB_APP_LOGIN_URL} target="_blank" rel="noreferrer" className="hidden rounded-full bg-[#FF8200] px-5 py-2 text-sm font-semibold text-white transition hover:bg-[#e57400] active:scale-95 md:inline-flex">Web App Login</a>
           <a href="mailto:Amin@Sentitels.com?subject=SentiTel%20Investment%20Inquiry" className="hidden rounded-full bg-white px-5 py-2 text-sm font-semibold text-slate-950 transition hover:bg-[#FF8200]/15 active:scale-95 sm:inline-flex">Contact Founder</a>
           <button type="button" onClick={() => setMobileMenuOpen((open) => !open)} aria-label="Toggle navigation menu" aria-expanded={mobileMenuOpen} aria-controls="mobile-navigation-menu" className="flex h-10 w-10 items-center justify-center rounded-xl border border-white/10 bg-white/5 text-white md:hidden">
             {mobileMenuOpen ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
@@ -769,7 +769,7 @@ export default function SentiTelStartupWebsite() {
               {navLinks.map(([label, href]) => (
                 <button key={label} type="button" onClick={() => scrollToSection(href)} className="rounded-xl px-4 py-3 text-left text-sm font-semibold text-slate-200 hover:bg-white/10">{label}</button>
               ))}
-              <a href={WEB_APP_LOGIN_URL} target="_blank" rel="noreferrer" className="mt-2 rounded-xl border border-[#FF8200]/30 bg-[#FF8200]/10 px-4 py-3 text-center text-sm font-bold text-[#FF8200]/15">Web App Login</a>
+              <a href={WEB_APP_LOGIN_URL} target="_blank" rel="noreferrer" className="mt-2 rounded-xl bg-[#FF8200] px-4 py-3 text-center text-sm font-bold text-white">Web App Login</a>
               <a href="mailto:Amin@Sentitels.com?subject=SentiTel%20Investment%20Inquiry" className="rounded-xl bg-[#FF8200] px-4 py-3 text-center text-sm font-bold text-white">Contact Founder</a>
             </div>
           </motion.div>
