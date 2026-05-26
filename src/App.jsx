@@ -30,7 +30,7 @@ import {
   BellOff,
 } from "lucide-react";
 
-const WEB_APP_LOGIN_URL = "https://sentitels.com/login";
+const WEB_APP_LOGIN_URL = "https://app.sentitels.com/login";
 
 const stats = [
   { value: "$39B", label: "Lost To Phone Scams Annually" },
