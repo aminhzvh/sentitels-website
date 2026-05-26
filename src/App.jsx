@@ -800,8 +800,7 @@ export default function SentiTelStartupWebsite() {
         </motion.div>
 
         <motion.div initial={{ opacity: 0, scale: 0.96 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: 0.7, delay: 0.1 }} className="relative">
-          <div className="rounded-[2rem] border border-white/10 bg-white/[0.04] p-4 shadow-2xl shadow-black/40 backdrop-blur">
-            <div className="rounded-[1.5rem] bg-slate-900 p-5">
+          <div className="rounded-[2rem] border border-white/10 bg-white/[0.04] p-6">
               <div className="mb-5 border-b border-white/10 pb-4">
                 <p className="text-sm text-slate-300">Live Call Risk Pipeline</p>
                 <p className="whitespace-nowrap text-xl font-bold">Tech Support + Remote Access Scam</p>
@@ -831,7 +830,6 @@ export default function SentiTelStartupWebsite() {
                   <p className="mt-[2.5px] text-xs italic leading-relaxed text-slate-300">"Okay, then open the Google, just double click on, go to anydesk.com."</p>
                 </div>
               </div>
-            </div>
           </div>
         </motion.div>
         </div>
